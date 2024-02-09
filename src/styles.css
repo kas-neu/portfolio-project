@@ -17,10 +17,20 @@ p {
   color: var(--secondary-color);
   text-align: start;
 }
-
+.continue {
+  background-color: var(--base-color);
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+  color: var(--secondary-color);
+}
+.content {
+  background-color: var(--base-color);
+  padding-top: 100px;
+}
 .hero {
-  padding: 160px 20px;
-  margin-bottom: 80px;
+  padding: 150px 20px;
+
   background: linear-gradient(
     to right,
     var(--main-background-color) 0%,
