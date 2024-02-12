@@ -192,6 +192,45 @@ p {
   text-align: center;
   line-height: 1.5;
 }
+footer {
+  background-color: var(--base-color);
+  padding: 25px 80px;
+}
+footer .contact-box {
+  background-color: #50555e23;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+.contact-box h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  margin: 10px;
+}
+.contact-box p {
+  font-family: "Poppins", sans-serif;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--main-background-color);
+  font-size: 18px;
+  padding: 15px;
+}
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+footer .social-links i {
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: var(--main-background-color);
+  background: #50555e23;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links i:hover {
+  color: var(--accent-color);
+}
 
 @media (max-width: 576px) {
   .hero {
@@ -256,5 +295,27 @@ p {
   nav ul {
     display: block;
     margin: 0 auto;
+  }
+  footer .contact-box {
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin: 25px auto;
+  }
+  .contact-box h4 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .contact-box p {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  footer {
+    padding: 5px 20px;
+  }
+  footer .btn.btn-branding {
+    padding: 5px 12px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 12px;
   }
 }
