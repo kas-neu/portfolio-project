@@ -142,11 +142,9 @@ p {
   .hero {
     background: var(--main-background-color);
   }
-  .hero h1 {
-    text-align: center;
-    margin-left: 0;
-  }
-  .hero p {
+
+  .hero p,
+  h1 {
     text-align: center;
     margin-left: 0;
   }
