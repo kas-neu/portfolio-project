@@ -28,6 +28,24 @@
     />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="img/logo.png"
+            class="logo d-none d-md-block d-lg-block"
+            alt="Kasia's business logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About me">About</a>
+          </li>
+          <li><a href="/work.html" title="Kasia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Kasia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-hero">
       <div class="content-container container">
         <div class="row">
@@ -38,7 +56,9 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="#" class="btn-branding btn mt-4">Check out my projects</a>
+            <a href="/work.html" class="btn-branding btn mt-4"
+              >Check out my projects</a
+            >
           </div>
           <div class="col-md-6">
             <img
@@ -50,5 +70,56 @@
         </div>
       </div>
     </div>
+    <hr / class="m-0">
+    <footer>
+      <div class="contact-box d-flex justify-content-between">
+        <div>
+          <h4>Work inquiry</h4>
+          <p class="text-muted">let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Kasia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:katarzyna.neu@icloud.com" class="email-link text-center"
+          >katarzyna.neu@icloud.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/kas_neu/"
+          target="_blank"
+          title="Instagram profile"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/kas-neu"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/katarzyna-neu/"
+          target="_blank"
+          title="LinkedIn profile"
+        >
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="source text-center mt-3 text-muted">
+        This website was coded by
+        <a href="https://github.com/kas-neu">Kasia</a>, is open-sourced on
+        <a href="https://github.com/kas-neu/portfolio-project">Github</a> and
+        hosted on Netlify.
+      </p>
+    </footer>
   </body>
 </html>
