@@ -300,16 +300,23 @@ footer .source a:hover {
   }
   .about-hero {
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 0;
+  }
+  .about-hero h1 {
+    padding-top: 15px;
   }
   .about-hero h2 {
     font-size: 14px;
   }
+  .about-hero p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
   .about-hero .col-md-6 .btn-branding {
     display: block;
-    margin: 0 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 5px 40px 15px;
+    padding: 7px 10px;
   }
   .work-page h1 {
     font-size: 28px;
