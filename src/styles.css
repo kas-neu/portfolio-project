@@ -364,3 +364,13 @@ footer .source a:hover {
     font-size: 12px;
   }
 }
+@media (max-width: 820px) {
+  .about-hero h1 {
+    padding-top: 5px;
+  }
+  .about-hero .col-md-6 .btn-branding {
+    display: block;
+    padding: 15px 10px;
+    margin: 30px auto;
+  }
+}
